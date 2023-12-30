@@ -1,7 +1,8 @@
 metadata:
   name: sonarExecuteScan
   description: Executes the Sonar scanner
-  longDescription: "The step executes the [sonar-scanner](https://docs.sonarqube.org/display/SCAN/Analyzing+with+SonarQube+Scanner)
+  longDescription:
+    "The step executes the [sonar-scanner](https://docs.sonarqube.org/display/SCAN/Analyzing+with+SonarQube+Scanner)
     cli command to scan the defined sources and publish the results to a SonarQube instance."
 spec:
   inputs:
@@ -10,16 +11,19 @@ spec:
     secrets:
       - name: sonarTokenCredentialsId
         type: jenkins
-        description: "Jenkins 'Secret text' credentials ID containing the token used to authenticate
+        description:
+          "Jenkins 'Secret text' credentials ID containing the token used to authenticate
           with the Sonar Server."
       - name: githubTokenCredentialsId
         type: jenkins
-        description: "Jenkins 'Secret text' credentials ID containing the token used to authenticate
+        description:
+          "Jenkins 'Secret text' credentials ID containing the token used to authenticate
           with the Github Server."
     params:
       - name: instance
         type: string
-        description: "Jenkins only: The name of the SonarQube instance defined in the Jenkins settings.
+        description:
+          "Jenkins only: The name of the SonarQube instance defined in the Jenkins settings.
           DEPRECATED: use serverUrl parameter instead"
         scope:
           - PARAMETERS
@@ -126,7 +130,8 @@ spec:
           - STEPS
       - name: inferJavaBinaries
         type: bool
-        description: "Find the location of generated Java class files in all modules
+        description:
+          "Find the location of generated Java class files in all modules
           and pass the option `sonar.java.binaries to the sonar tool."
         scope:
           - PARAMETERS
@@ -134,7 +139,8 @@ spec:
           - STEPS
       - name: inferJavaLibraries
         type: bool
-        description: "If the parameter `m2Path` is configured for the step `mavenExecute`
+        description:
+          "If the parameter `m2Path` is configured for the step `mavenExecute`
           in the general section of the configuration, pass it as option `sonar.java.libraries`
           to the sonar tool."
         scope:
@@ -168,7 +174,8 @@ spec:
           - STEPS
       - name: inferBranchName
         type: bool
-        description: "Whether to infer the `branchName` parameter automatically based on the
+        description:
+          "Whether to infer the `branchName` parameter automatically based on the
           orchestrator-specific environment variable in runs of the pipeline."
         scope:
           - PARAMETERS
@@ -243,7 +250,8 @@ spec:
             default: github
       - name: disableInlineComments
         type: bool
-        description: "Pull-Request only: Disables the pull-request decoration with inline comments.
+        description:
+          "Pull-Request only: Disables the pull-request decoration with inline comments.
           DEPRECATED: only supported in SonarQube < 7.2"
         scope:
           - PARAMETERS
@@ -251,7 +259,8 @@ spec:
           - STEPS
       - name: legacyPRHandling
         type: bool
-        description: "Pull-Request only: Activates the pull-request handling using
+        description:
+          "Pull-Request only: Activates the pull-request handling using
           the [GitHub Plugin](https://docs.sonarqube.org/display/PLUG/GitHub+Plugin).
           DEPRECATED: only supported in SonarQube < 7.2"
         scope:
