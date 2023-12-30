@@ -5,6 +5,8 @@ metadata:
     cli command to scan the defined sources and publish the results to a SonarQube instance."
 spec:
   inputs:
+    resources:
+      - type: stash
     secrets:
       - name: sonarTokenCredentialsId
         type: jenkins
