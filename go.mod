@@ -23,8 +23,8 @@ require (
 	github.com/evanphx/json-patch v5.7.0+incompatible
 	github.com/getsentry/sentry-go v0.11.0
 	github.com/ghodss/yaml v1.0.1-0.20190212211648-25d852aebe32
-	github.com/go-git/go-billy/v5 v5.5.0
-	github.com/go-git/go-git/v5 v5.11.0
+	github.com/go-git/go-billy/v5 v5.6.0
+	github.com/go-git/go-git/v5 v5.13.0
 	github.com/go-openapi/runtime v0.24.1
 	github.com/go-openapi/strfmt v0.21.3
 	github.com/go-playground/locales v0.14.0
@@ -53,7 +53,7 @@ require (
 	github.com/sirupsen/logrus v1.9.3
 	github.com/spf13/cobra v1.8.0
 	github.com/spf13/pflag v1.0.5
-	github.com/stretchr/testify v1.8.4
+	github.com/stretchr/testify v1.10.0
 	github.com/testcontainers/testcontainers-go v0.10.0
 	github.com/xuri/excelize/v2 v2.4.1
 	golang.org/x/mod v0.17.0
@@ -80,7 +80,7 @@ require (
 	github.com/boombuler/barcode v1.0.1 // indirect
 	github.com/cloudflare/circl v1.3.7 // indirect
 	github.com/containerd/log v0.1.0 // indirect
-	github.com/cyphar/filepath-securejoin v0.2.4 // indirect
+	github.com/cyphar/filepath-securejoin v0.2.5 // indirect
 	github.com/dgryski/go-metro v0.0.0-20180109044635-280f6062b5bc // indirect
 	github.com/distribution/reference v0.5.0 // indirect
 	github.com/duosecurity/duo_api_golang v0.0.0-20190308151101-6c680f768e74 // indirect
@@ -127,7 +127,7 @@ require (
 	github.com/pquerna/otp v1.2.1-0.20191009055518-468c2dd2b58d // indirect
 	github.com/shirou/gopsutil/v3 v3.22.6 // indirect
 	github.com/shopspring/decimal v1.3.1 // indirect
-	github.com/skeema/knownhosts v1.2.1 // indirect
+	github.com/skeema/knownhosts v1.3.0 // indirect
 	github.com/sony/gobreaker v0.4.2-0.20210216022020-dd874f9dd33b // indirect
 	github.com/spf13/cast v1.5.1 // indirect
 	github.com/yusufpapurcu/wmi v1.2.2 // indirect
@@ -170,7 +170,7 @@ require (
 	github.com/Masterminds/semver v1.5.0 // indirect
 	github.com/Masterminds/semver/v3 v3.2.1 // indirect
 	github.com/Microsoft/go-winio v0.6.1 // indirect
-	github.com/ProtonMail/go-crypto v0.0.0-20230828082145-3c4c8a2d2371 // indirect
+	github.com/ProtonMail/go-crypto v1.1.3 // indirect
 	github.com/aliyun/alibaba-cloud-sdk-go v1.62.301 // indirect
 	github.com/antchfx/xpath v1.2.0 // indirect
 	github.com/armon/go-metrics v0.4.1 // indirect
@@ -337,10 +337,10 @@ require (
 	github.com/richardlehane/msoleps v1.0.1 // indirect
 	github.com/ryanuber/go-glob v1.0.0 // indirect
 	github.com/sasha-s/go-deadlock v0.2.0 // indirect
-	github.com/sergi/go-diff v1.2.0 // indirect
+	github.com/sergi/go-diff v1.3.2-0.20230802210424-5b0b94c5c0d3 // indirect
 	github.com/sethvargo/go-limiter v0.7.1 // indirect
 	github.com/softlayer/softlayer-go v0.0.0-20180806151055-260589d94c7d // indirect
-	github.com/stretchr/objx v0.5.0 // indirect
+	github.com/stretchr/objx v0.5.2 // indirect
 	github.com/tencentcloud/tencentcloud-sdk-go v3.0.83+incompatible // indirect
 	github.com/tklauser/go-sysconf v0.3.10 // indirect
 	github.com/tklauser/numcpus v0.4.0 // indirect
