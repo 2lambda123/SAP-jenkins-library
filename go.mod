@@ -1,6 +1,7 @@
 module github.com/SAP/jenkins-library
 
 go 1.19
+toolchain go1.24.1
 
 //downgraded for :https://cs.opensource.google/go/x/crypto/+/5d542ad81a58c89581d596f49d0ba5d435481bcf : or else will break for some github instances
 // not downgraded using go get since it breaks other dependencies.
@@ -233,7 +234,7 @@ require (
 	github.com/go-sql-driver/mysql v1.7.1 // indirect
 	github.com/go-test/deep v1.1.0 // indirect
 	github.com/gogo/protobuf v1.3.2 // indirect
-	github.com/golang-jwt/jwt/v4 v4.5.1 // indirect
+	github.com/golang-jwt/jwt/v4 v4.5.2 // indirect
 	github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da // indirect
 	github.com/golang/protobuf v1.5.3 // indirect
 	github.com/golang/snappy v0.0.4 // indirect
